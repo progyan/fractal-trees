@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body style="margin: 0; font-family: 'Raleway'; overflow: hidden;">
+        <div style="position: absolute; margin: 20px">
+            <label for="pow">Pow</label>
+            <input type="number" id="pow" value=1.3>
+            <br>h <br>
+            <label for="coef">Coef</label>
+            <input type="number" id="coef" value=3>
+            <br><br>
+            <label for="angle1">Angle 1</label>
+            <input type="number" id="angle1" value=0.5>
+            <br><br>
+            <label for="angle2">Angle 2</label>
+            <input type="number" id="angle2" value=0.5>
+            <br><br>
+            <label for="power">Power</label>
+            <input type="number" id="power" value=15>
+            <br><br>
+            <label for="startposx">Start position X</label>
+            <input type="number" id="startposx" value=700>
+            <br><br>
+            <label for="startposy">Start position Y</label>
+            <input type="number" id="startposy" value=700>
+            <br><br>
+            <label for="startangle">Starting angle (in radians)</label><br>
+            <input type="number" id="startangle" value=-1.5708>
+            <br><br>
+            <label for="style">Style</label>
+            <input type="text" id="style" value="round">
+            <br><br>
+            <label for="boldness">Boldness</label>
+            <input type="number" id="boldness" value=1>
+            <br><br>
+            <label for="bgcolor">Background color (HEX)</label><br>
+            <input type="text" id="bgcolor" value="#ffffff">
+            <br><br><br>
+            <button onclick="applyChanges()">Apply</button>
+        </div>
+        <canvas id="fractals"></canvas>
+        <script src="script.js"></script>
+    </body>
+</html>
